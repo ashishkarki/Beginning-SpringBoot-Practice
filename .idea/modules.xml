@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Beginning-SpringBoot-Practice.iml" filepath="$PROJECT_DIR$/.idea/Beginning-SpringBoot-Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/todo-client/todo-client.iml" filepath="$PROJECT_DIR$/todo-client/todo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/todo-in-memory/todo-in-memory.iml" filepath="$PROJECT_DIR$/todo-in-memory/todo-in-memory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/todo-jdbc/todo-jdbc.iml" filepath="$PROJECT_DIR$/todo-jdbc/todo-jdbc.iml" />
     </modules>
   </component>
 </project>

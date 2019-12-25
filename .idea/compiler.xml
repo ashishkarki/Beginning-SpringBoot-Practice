@@ -7,20 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="todo-in-memory" />
         <module name="todo-client" />
+        <module name="todo-in-memory" />
+        <module name="todo-jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Beginning-SpringBoot-Practice" target="1.8" />
       <module name="todo-client" target="8" />
       <module name="todo-in-memory" target="1.8" />
+      <module name="todo-jdbc" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="todo-client" options="-parameters" />
       <module name="todo-in-memory" options="-parameters" />
+      <module name="todo-jdbc" options="" />
     </option>
   </component>
 </project>
