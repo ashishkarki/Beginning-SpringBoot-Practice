@@ -17,6 +17,7 @@
 
     <modules>
         <module>todo-in-memory</module>
+        <module>todo-client</module>
     </modules>
 
     <properties>

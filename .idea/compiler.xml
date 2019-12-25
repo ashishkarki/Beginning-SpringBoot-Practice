@@ -2,20 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="todo-in-memory" />
+        <module name="todo-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Beginning-SpringBoot-Practice" target="1.8" />
+      <module name="todo-client" target="8" />
       <module name="todo-in-memory" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="todo-client" options="-parameters" />
       <module name="todo-in-memory" options="-parameters" />
     </option>
   </component>
